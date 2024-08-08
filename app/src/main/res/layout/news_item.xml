@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:cardMaxElevation="4dp"
+    app:cardUseCompatPadding="true">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+    <ImageView
+        android:id="@+id/news_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:maxLines="4"
+        android:text="Turkey awaits presidential election results as Erdogan's leadership hangs in balance - The Associated Press"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/news_image"
+        android:layout_margin="16dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:padding="8sp"/>
+
+    <TextView
+        android:id="@+id/news_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Retrofit is a type-safe http client which is used to retrieve, update and delete the data from web services. Nowadays retrofit library is popular among the developers to use the API key. The Kotlin team defines coroutines as “lightweight threads”. They are sort of tasks that the actual threads can execute. Coroutines were added to Kotlin in version 1.3 and are based on established concepts from other languages. Kotlin coroutines introduce a new style of concurrency that can be used on Android to simplify async code. In this article, we will learn about retrofit using Kotlin coroutine. So we will be using Retrofit for network requests. Retrofit is a very popular library used for working APIs and very commonly used as well. "
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/news_title"
+        android:layout_margin="16dp"
+        android:textColor="@color/black"
+        android:maxLines="15"
+        android:padding="8sp"/>
+
+    <TextView
+        android:id="@+id/news_publishedAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2023-05-14T14:37:09Z"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/news_content"
+        app:layout_constraintVertical_bias="0.283" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

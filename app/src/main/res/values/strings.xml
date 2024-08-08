@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Asclepius</string>
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="analyze">Analyze</string>
+    <string name="result">Hasil Analisis</string>
+    <string name="classfier_setup_error">"Image Classifier Initialization Error, check error log for details"</string>
+    <string name="analysis_error">Oops, there seems to be trouble in analyzing the image, \n Please try again later</string>
+    <string name="save_button">Save Analysis</string>
+    <string name="history">History</string>
+    <string name="analysis_image">analysis image</string>
+    <string name="analysis_type">Type: %s</string>
+    <string name="analysis_score">Score: %s</string>
+    <string name="analysis_time">%s ms</string>
+    <string name="hasil_analisis">Hasil analisis:</string>
+    <string name="analysis_type_with_score">%1$s: %2$s</string>
+    <string name="label">Label: %s</string>
+    <string name="score">Score: %s</string>
+
+</resources>
